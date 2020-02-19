@@ -1,0 +1,70 @@
+body{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.bginto {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("imagens/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 60px;
+    background-color: #333333;
+		text-align: center;
+		color: white;
+	}
+.fa-facebook, .fa-twitter, .fa-instagram{
+  color: gray;
+  font-size: 30px;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover{
+  text-decoration: none;
+  color: #a6ffff;
+}
+.dropdown-item, .dropdown-menu{
+  background: #282828;
+  color: white;
+}
+
+.login{
+  position: absolute;
+  right: 5%;
+}
+
+.log{
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	width: 90%;
+	color: slategray;
+}
+
+iframe{
+	border: 4px solid white;
+}
+
+fieldset{
+	border: 2px solid darkgray;
+	height: 210px;
+}
+
+table{
+	text-align: center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form class="log">
+        <fieldset>
+          <center><legend>Cadastro</legend>
+          <table>
+            <tbody>
+              <td>Login:</td>
+              <td><input type="text" id="l" required placeholder="Usuário"></td>
+            </tbody>
+            <tbody>
+              <td>Senha:</td>
+              <td><input type="password" id="s" required placeholder="Senha"></td>
+            </tbody>
+            <tbody>
+              <td>Confirmar:</td>
+              <td><input type="password" id="s2" required placeholder="Confirmar"></td>
+            </tbody>
+          </table>
+          <button type="button" onclick="conf()" name="button" class="btn btn-primary">Confirmar</button>
+          <p class="verifica" id="verify"></p>
+          </center>
+        </fieldset>
+      </form>
+    </div>
+    <script src="login.js" charset="utf-8"></script>
+  </body>
+</html>
